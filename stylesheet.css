@@ -193,6 +193,19 @@ a, u {
     float: left;
 }
 
+.contactme {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
 .paragraph {
     display: flex;
     margin-left: 5px;
